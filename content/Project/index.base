@@ -1,0 +1,14 @@
+filters:
+  and:
+    - file.folder == "quartz/content/Project"
+views:
+  - type: table
+    name: 표
+    order:
+      - file.basename
+      - file.backlinks
+    sort:
+      - property: file.backlinks
+        direction: ASC
+      - property: file.name
+        direction: ASC

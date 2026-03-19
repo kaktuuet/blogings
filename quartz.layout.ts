@@ -1,11 +1,22 @@
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
+import { SimpleSlug } from "./quartz/util/path"
 
 // components shared across all pages
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
-  afterBody: [],
+  afterBody: [
+    Component.ConditionalRender({
+       component: Component.RecentNotes({
+          title: "Recent writing",
+          limit : 5,
+          showTags : false,
+          filter: (f)=>f.slug !=="index",
+      }),
+      condition: (page)=>page.fileData.slug==="index",
+    }),
+  ],
   footer: Component.Footer({
     links: {
       GitHub: "https://github.com/jackyzha0/quartz",
@@ -66,3 +77,4 @@ export const defaultListPageLayout: PageLayout = {
   ],
   right: [],
 }
+

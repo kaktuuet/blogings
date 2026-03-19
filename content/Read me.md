@@ -1,2 +1,4 @@
-Just a test. Please success. Actually, I don't know what's going on.
-I also don't know English. What is she saying? Anyway let's go.
+Welcome to my blog!
+This place is for studying, developing, etc.
+
+Hope you find a little inspiration here.
