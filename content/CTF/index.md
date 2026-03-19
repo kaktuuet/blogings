@@ -1,0 +1,3 @@
+---
+title: Solving War Games
+---
