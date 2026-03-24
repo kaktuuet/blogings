@@ -19,9 +19,9 @@ title: 극 P인간 J되기 프로젝트
   </div>
 <!-- 카드 3 -->
   <div class="category-card">
-    <h3>🚩 CTF</h3>
+    <h3>🚩 War</h3>
     <p>문제 풀이</p>
-    <a href="/CTF" class="card-link">Link</a>
+    <a href="/War" class="card-link">Link</a>
   </div>
   <!-- 카드 4 -->
   <div class="category-card">
