@@ -21,7 +21,7 @@ tags:
  sudo apt-get install -y docker.io
  ``
  로 다운 받는다.
-![[quartz/attachments/ED1.png]]
+![[ED1.png]]
 
 5. 현 폴더에 있는 도커 파일을 빌드한다.
 

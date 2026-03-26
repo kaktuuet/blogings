@@ -1,3 +1,3 @@
 ---
-title: Passkey Project
+title: Projects
 ---
